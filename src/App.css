@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+@font-face {
+  font-family: "Konexy Personal Use";
+  src: url("./assets/fonts/KonexyPersonalUse.otf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Bold_-_Copy.ttf");
+}
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 24px;
+  --fs-xl: 35px;
+  --fs-xxl: 36px;
+  --fs-3xl: 40px;
+  --fs-4xl: 48px;
+  --fs-5xl: 72px;
+  --clr-darkwhite: #b2b2b2;
+  --clr-darkwhite50: #bebebe;
+  --clr-gray: #4d4d4d;
+  --clr-gray25: #868687;
+  --clr-gray50: #4c4c4c;
+  --clr-gray75: #6f6f6f;
+  --clr-primary: #6022ea;
+  --clr-lightblack: #313131;
+}
+.fw-medium {
+  font-weight: 500;
+}
+.clr_darkwhite {
+  color: var(--clr-darkwhite);
+}
+.clr_darkwhite50 {
+  color: var(--clr-darkwhite50);
+}
+.clr_gray {
+  color: var(--clr-gray);
+}
+.clr_gray25 {
+  color: var(--clr-gray25);
+}
+.clr_gray50 {
+  color: var(--clr-gray50);
+}
+.clr_gray75 {
+  color: var(--clr-gray75);
+}
+.clr_primary {
+  color: var(--clr-primary);
+}
+.clr_lightblack {
+  color: var(--clr-lightblack);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fs_xsm {
+  font-size: var(--fs-xsm);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fs_sm {
+  font-size: var(--fs-sm);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fs_md {
+  font-size: var(--fs-md);
 }
-
-.App-link {
-  color: #61dafb;
+.fs_lg {
+  font-size: var(--fs-lg);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
 }
