@@ -7,7 +7,9 @@ const Integer = () => {
   return (
     <div>
       <Container>
-        <h2 className="ff_konexy fw-normal mt-5 fs_4xl pt-md-2">Integer et nisl non</h2>
+        <h2 className="ff_konexy fw-normal mt-5 fs_4xl pt-md-2">
+          Integer et nisl non
+        </h2>
         <Row className="mb-4 py-4 justify-content-center py-md-5">
           <Col className="my-3 my-xl-0" md={6} xl={4}>
             <div className="colCards p-4 h-100">
@@ -25,7 +27,7 @@ const Integer = () => {
               <div className="d-flex pt-1 justify-content-center">
                 {" "}
                 <a
-                  className="color_primary text-center ff_inter fw-semibold fs_sm"
+                  className="clr_primary text-center ff_inter fw-semibold fs_sm"
                   href="#"
                 >
                   Learn More
@@ -48,7 +50,7 @@ const Integer = () => {
               </p>
               <div className="d-flex pt-1 justify-content-center">
                 <a
-                  className="color_primary text-center ff_inter fw-semibold fs_sm"
+                  className="clr_primary text-center ff_inter fw-semibold fs_sm"
                   href="#"
                 >
                   Learn More
@@ -71,7 +73,7 @@ const Integer = () => {
               </p>
               <div className="d-flex pt-1 justify-content-center">
                 <a
-                  className="color_primary text-center ff_inter fw-semibold fs_sm"
+                  className="clr_primary text-center ff_inter fw-semibold fs_sm"
                   href="#"
                 >
                   Learn More

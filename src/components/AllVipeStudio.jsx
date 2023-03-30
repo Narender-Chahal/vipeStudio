@@ -121,7 +121,7 @@ const AllVipeStudio = () => {
                 </div>
               </Col>
               <Col className="my-3 my-lg-0" md={6} lg={4}>
-                <h4 className="text-white ff_Gilroy fs_lg fw-bold">
+                <h4 className="text-white  ff_GilroySemiBold fs_lg fw-bold">
                   20-m free consultation that will help us identifyif you need
                 </h4>
 

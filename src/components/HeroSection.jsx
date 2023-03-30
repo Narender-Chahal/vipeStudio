@@ -12,7 +12,7 @@ const HeroSection = () => {
             <h2 className="ff_konexy text-white  fw-normal fs_5xl mb-0 position-relative  line_content">
               WordPress Development Agency
             </h2>
-            <p className="text-white fw-bold ff_Gilroy fs_lg py-2 mb-0">
+            <p className="text-white fw-bold ff_Gilroy ff_GilroySemiBold fs_lg py-2 mb-0">
               for Enterprise + Friendly Team
             </p>
             <p className="  fs_sm clr_darkwhite fw-semibold ff_GilroyRegular mb-0 ">
@@ -57,7 +57,7 @@ const HeroSection = () => {
               <div className="bg_blur_blue position-absolute blue_position zn_1  "></div>
               <div className="bg_blur position-absolute bottom-0 start-0 ms-sm-3 mb-sm-3 px-3 py-2">
                 <img src={trustpilotStar} alt="trustpilotStar" />
-                <p className="mb-0 text-white mt-2 fs_sm fw-normal ff_jost">
+                <p className="mb-0 text-white mt-2 fs_sm fw-normal ff_josh">
                   Rated 5.0 Excellent
                 </p>
               </div>

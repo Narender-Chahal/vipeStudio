@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo_img from "../assets/img/png/logo.png";
 import arrow_img from "../assets/img/png/arrow.png";
@@ -6,8 +6,29 @@ import phn_img from "../assets/img/png/phn.png";
 import msg_img from "../assets/img/png/msg.png";
 import home_img from "../assets/img/png/msg.png";
 function Footer() {
+  const [first, setfirst] = useState(true);
+  const moveToTop = () => {
+    document.documentElement.scrollTop = 0;
+  };
+  window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > 200) {
+      setfirst(false);
+    } else {
+      setfirst(true);
+    }
+  });
   return (
     <div className="bg-black ">
+      <button
+        className={
+          first
+            ? "btn btn-primary ff_GilroyRegular fw-normal fs_sm z_5 text-white position-fixed d-none end-0 bottom-0 ms-4 mb-4"
+            : "btn btn-primary ff_GilroyRegular fw-normal fs_sm z_5 text-white position-fixed d-block end-0 bottom-0 ms-4 mb-4"
+        }
+        onClick={() => moveToTop()}
+      >
+        Top
+      </button>
       <section className=" pt-lg-5">
         <Container>
           <div className="pt-5 d-sm-flex align-items-center justify-content-between">
@@ -294,7 +315,7 @@ function Footer() {
       <section className="pt-3 ">
         <div className="hr_line  mt-5 "></div>
         <Container>
-          <div className="d-md-flex align-items-center justify-content-between pb-4">
+          <div className="d-md-flex align-items-center justify-content-between pb-1">
             <div className="py-4">
               <p className="mb-0 ff_GilroyRegular fw-normal fs_xsm text-white  ">
                 © Vipe Studio 2016-2022

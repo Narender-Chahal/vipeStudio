@@ -10,7 +10,7 @@ const Featured = () => {
   return (
     <>
       {/* tell us section */}
-      <div className="py-5 bg_dark_50">
+      <div className="py-3 py-lg-5 bg_dark_50">
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="my-2 my-lg-0">

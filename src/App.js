@@ -6,7 +6,6 @@ import HeroSection from "./components/HeroSection";
 import Featured from "./components/Featured";
 import Integer from "./components/Integer";
 import AllVipeStudio from "./components/AllVipeStudio";
-
 import LongTerm from "./components/LongTerm";
 import Agile from "./components/Agile";
 import Team from "./components/Team";
@@ -17,14 +16,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="d-flex flex-column h_xl_100 vh_100 overflow-hidden">
+      <div className="d-flex flex-column h_xxl_100 vh_100 overflow-hidden">
         <NavBar />
         <HeroSection />
       </div>
       <Featured />
       <Integer />
       <AllVipeStudio />
-
       <LongTerm />
       <Agile />
       <Team />
