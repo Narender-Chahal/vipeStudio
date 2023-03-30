@@ -7,6 +7,13 @@ import Featured from "./components/Featured";
 import Integer from "./components/Integer";
 import AllVipeStudio from "./components/AllVipeStudio";
 
+import LongTerm from "./components/LongTerm";
+import Agile from "./components/Agile";
+import Team from "./components/Team";
+import Success from "./components/Success";
+import { Card } from "react-bootstrap";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -17,6 +24,13 @@ function App() {
       <Featured />
       <Integer />
       <AllVipeStudio />
+
+      <LongTerm />
+      <Agile />
+      <Team />
+      <Success />
+      <Card />
+      <Footer />
     </>
   );
 }

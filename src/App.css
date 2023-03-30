@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Jost:wght@200;300;400;500;600;700&display=swap");
 .ff_inter {
   font-family: "Inter", sans-serif;
+}
+.ff_josh {
+  font-family: "Jost";
 }
 @font-face {
   font-family: "Konexy Personal Use";
@@ -14,8 +17,18 @@
 }
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("./assets/fonts/Gilroy-Bold_-_Copy.ttf");
+  font-family: "GilroySemiBold";
+  src: url(./assets/fonts/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url(./assets/fonts/Gilroy-Regular.ttf);
+}
+.ff_GilroySemiBold {
+  font-family: "GilroySemiBold";
+}
+.ff_GilroyRegular {
+  font-family: "GilroyRegular";
 }
 * {
   list-style-type: none !important;
@@ -99,6 +112,7 @@
 .fs_5xl {
   font-size: var(--fs-5xl);
 }
+
 /* btn */
 .heroBtn {
   background-color: #6022ea;
