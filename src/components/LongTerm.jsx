@@ -9,10 +9,10 @@ function LongTerm() {
     <section className="Longterm_section_bg py-5 ">
       <Container>
         <div>
-          <h2 className="ff_konexy fw-normal mb-0 fs_4xl mw_630">
+          <h2 className="ff_konexy fw-normal mb-0 fs_4xl mw_630 text-black">
             Long Term WordPress Partner
           </h2>
-          <p className="mb-0 ff_Gilroy fw-normal fs_sm mw_650 clr_lightblack pt-3">
+          <p className="mb-0 ff_GilroyRegular fw-normal fs_sm mw_650 clr_lightblack pt-3">
             Our motto is the long-term partnership – we will not only develop
             your perfect website, but will be behind you through the whole
             process. They already trusted us:
